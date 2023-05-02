@@ -1,0 +1,312 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ff9c00;
+    color: #fff;
+    padding: 15px;
+    text-align: right ;
+    font-family: 'Space Mono', monospace; 
+    font-size: 35px;
+  
+  }
+
+  #header1 {
+    background-color: #ff9c00; /* Grey background */
+    padding: 15px 10px; /* Some padding */
+    color: black;
+    text-align: center; /* Centered text */
+    font-size: 25px; /* Big font size */
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+    animation-name: aparicionheader;
+    animation-duration: 1s;
+  
+    
+  }
+
+
+
+  .logo {
+    width: 200px;
+    height: 200px;
+   
+  }
+
+  .last-picks{
+    font-family: 'Space Mono', monospace; 
+    font-size: 50px;
+    padding: 70px;
+    padding-left: 430px;
+    
+  }
+
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 40px;
+
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main styles */
+  main {
+    margin: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    }
+
+.TITLE1{
+  font-family: 'Space Mono', monospace; 
+  font-size: 50px;
+  margin-top: 150px;
+  animation-name: apariciontitulo;
+  animation-duration: 1s;
+
+  
+}
+
+.titulo1{
+  font-family: 'Space Mono', monospace; 
+  font-size: 50px;
+  padding: 60px;
+  animation-name: apariciontitulo;
+  animation-duration: 1s;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+.CALENDAR-INFO{
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  animation-name: apariciontitulo;
+  animation-duration: 1s;
+
+}
+
+.text-chuck1{
+  font-family:  'Space Mono', monospace; 
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.text-chuck{
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  
+}
+
+.CALENDARSNK1, .CALENDARSNK2{
+  padding: 20px;
+  display: inline-block;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+    .logo1{
+       margin-left: 525px;
+    }
+
+
+
+  .card-title{
+    font-family: 'Space Mono', monospace; 
+    font-size: 40px;
+    
+  }
+
+  a{
+    font-family: "Space Mono", monospace;
+  }
+
+  .card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+  }
+
+.btnprimary{
+  background-color: #ff9c00;
+  font-family: "Space Mono", monospace;
+  font-size: 25px;
+  
+}
+
+
+.card2 , .card1{
+padding: 40px;
+
+}
+
+#general-main{
+  margin-left: 40px;
+}
+
+
+
+
+
+.calendar {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: dashed;
+  border-width: 8px;
+  margin-top: 100px;
+
+  
+}
+
+.btnprimary1{
+  background-color: #ff9c00;
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  
+  
+}
+
+.days, .times {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  font-family: "Space Mono", monospace;
+  font-size: 30px;
+  color: #000000;
+  
+}
+
+.day1 , .day2 , .day3 , .day4 , .day5 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+.dropsh{
+  font-size: 50px;
+  font-family: 'Space Mono', monospace; 
+  padding: 30px;
+  
+}
+.aboutuscontent{
+  margin-top: 400px;
+}
+
+
+.ABOUTUSLAND1{
+  font-family: 'Space Mono', monospace; 
+  padding: 50px;
+  font-size: 55px;
+  
+}
+
+.aboutustext{
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  padding: 30px;
+ 
+  
+}
+
+.logoaboutus{
+  margin-left: 450px;
+  height: 250px;;
+  width: 400px;
+}
+
+.logoalrights{
+  height: 100px;
+  width: 100px;
+
+}
+
+  /* Footer styles */
+  footer {
+    font-family: 'Space Mono', monospace; 
+    font-size: 25px;
+    background-color: #ff9c00;
+    border-top: 1px solid #eee;
+    color: #eee;
+    padding: 10px;
+    text-align: right;
+    padding-bottom: 40px;
+  }
+  
+  @keyframes aparicionheader{
+    0%{
+      opacity: 0%;
+      transform: scale(2) translateY(95px);
+    }
+    100%{
+      opacity: 100%;
+      transform: scale(1) translateY(0);
+    }
+    
+   }
+
+   @keyframes apariciontitulo{
+    0%{
+      opacity: 0%;
+      transform: scale(2) translateY(95px);
+    }
+    100%{
+      opacity: 100%;
+      transform: scale(1) translateY(0);
+    }
+    
+   }

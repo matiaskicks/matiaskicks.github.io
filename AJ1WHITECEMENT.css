@@ -1,0 +1,162 @@
+  /* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ff9c00;
+    color: #fff;
+    padding: 15px;
+    text-align: right ;
+    font-family: 'Space Mono', monospace; 
+    font-size: 35px;
+  
+  }
+
+
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    
+    
+  }
+
+  .last-picks{
+     
+    font-size: 50px;
+    padding: 1px;
+  }
+
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 40px;
+
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main styles */
+  main {
+    margin: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .AJ4LEFT{
+    display: inline-block;
+    padding: 20px;
+    margin-left: 60px;
+  }
+
+
+  .card-body {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    margin-top: 100px;
+  
+    
+  }
+
+.card-title{
+  font-family: "Space Mono", monospace;
+  font-size: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+ }
+
+ .card-text{
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding: 50px;
+  padding-left: 70px;
+ }
+
+ .text-body-secondary{
+  font-family: "Space Mono", monospace;
+  font-size: 60px;
+  
+  padding: 30px;
+  margin-top: 50px;
+  margin-left: 70px;
+ }
+
+  .btnprimary2{
+    background-color: #ff9c00;
+    font-family: "Space Mono", monospace;
+    font-size: 45px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 70px;
+    
+    
+    
+  }
+  
+  .card-mb3{
+    display: flex;
+  justify-content: center;
+  }
+
+
+  
+
+  
+  .data-container{
+    background:#ffebee;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+    /* Footer styles */
+    footer {
+      font-family: 'Space Mono', monospace; 
+      font-size: 25px;
+      background-color: #ff9c00;
+      border-top: 1px solid #eee;
+      color: #eee;
+      padding: 10px;
+      padding-bottom  : 20px;
+      text-align: right;
+      padding-bottom: 40px;
+      margin-top: 40px;
+    }
+    
+  

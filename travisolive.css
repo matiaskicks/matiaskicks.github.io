@@ -1,0 +1,419 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+
+ 
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ff9c00;
+    color: #fff;
+    padding: 25px;
+    text-align: right ;
+    font-family: 'Space Mono', monospace; 
+    font-size: 40px;
+    padding-bottom: 60px;
+    position: sticky;
+    top: 0;
+  }
+  
+  #header1 {
+    background-color: #ff9c00; /* Grey background */
+    padding: 15px 10px; /* Some padding */
+    color: black;
+    text-align: center; /* Centered text */
+    font-size: 25px; /* Big font size */
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+    animation-name: aparicionheader;
+    animation-duration: 1s;
+   
+    
+  }
+ 
+  .logo {
+    width: 200px;
+    height: 200px;
+
+  }
+  
+  
+   .logo1{
+   animation-name: aparicion;
+   animation-duration: 1s;
+
+  }
+
+
+
+
+  .last-picks{
+    font-family: 'Space Mono', monospace; 
+    font-size: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: aparicionlast;
+    animation-duration: 1s;
+ 
+   
+    
+  }
+
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    
+    margin-right: 40px;
+    
+    
+
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main styles */
+  main {
+    margin: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    }
+ 
+
+
+
+
+    .welcome{
+      font-family: 'Space Mono', monospace;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 100px;
+      animation-name: aparicion1;
+      animation-duration: 1s;
+   
+      
+    
+    }
+
+    .logo1{
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+.imagenesj1lucky{
+    padding: 40px;
+   
+ 
+    margin-top: 100px;
+
+}
+
+.imagenesj1lucky1{
+    padding: 40px;
+    padding-top: 30px;
+    animation-name: aparicion1;
+    animation-duration: 1s;
+ 
+}
+
+.iglink{
+    padding: 30px;
+    
+  }
+
+  .textos1{
+    display: inline-block;
+  }
+  
+
+.heart{
+    transition: 2s;
+    padding-right: 5px;
+    animation-name: aparicionheader;
+    animation-duration: 1s;
+   
+  }
+
+  .heart:hover {
+    transform: scale(2); 
+   }
+
+  .heart::after{
+   transform: scale(3);
+  }
+  
+
+  .card-title{
+    font-family: 'Space Mono', monospace; 
+    font-size: 30px;
+    
+  }
+
+  a{
+    font-family: "Space Mono", monospace;
+  }
+
+  .card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+
+.btnprimary{
+  
+  font-family: "Space Mono", monospace;
+  font-size: 25px;
+  background-color: #FFFFFF;
+  transition: background-color 1s ease 0s; 
+}
+
+.btnprimary:hover{
+  background-color: #ff9c00;
+}
+
+
+
+
+.card2, .card1{
+  padding: 60px;
+  display: block;
+      
+}
+
+ .card2 {
+  transition: transform .2s; 
+}
+
+ .card2:hover {
+  transform: scale(1.2); 
+}
+
+.card1 {
+  transition: transform .2s; 
+}
+
+ .card1:hover {
+  transform: scale(1.2); 
+}
+
+#general-main{
+  padding: 30px;
+  margin-top: 100%;
+  display: inline-block; 
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+
+
+
+.calendar {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: dashed;
+  border-width: 8px;
+  margin-top: 100px;
+
+  
+}
+
+.btnprimary1{
+  font-family: "Space Mono", monospace;
+  font-size: 15px;
+  background-color: #ff9c00;
+
+  
+}
+
+.btnprimary::after{
+  background-color: #ff9c00;
+}
+
+
+.days, .times {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  font-family: "Space Mono", monospace;
+  font-size: 30px;
+  color: #000000;
+  
+}
+
+.day1 , .day2 , .day3 , .day4 , .day5 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+.dropsh{
+  font-size: 50px;
+  font-family: 'Space Mono', monospace; 
+  padding: 30px;
+  
+}
+.aboutuscontent{
+  margin-top: 80px;
+}
+
+
+.ABOUTUSLAND1{
+  font-family: 'Space Mono', monospace; 
+ padding: 20px;
+  font-size: 55px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  
+}
+
+.aboutustext{
+  font-family: "Verdana", Geneva, Tahoma, sans-serif;
+  font-size: 23px;
+  padding: 20px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  
+}
+.logopara{
+   
+ display: flex;
+ margin-left: auto;
+ margin-right: auto;
+ 
+
+}
+
+
+.logoalrights{
+  height: 100px;
+  width: 100px;
+
+}
+
+.jarritosimg{
+  transition: 2s;
+  padding-right: 20px;
+  margin-top: 100px;
+  animation-name: aparicionheader;
+  animation-duration: 1s;
+ 
+}
+
+
+
+ .jarritosimg:hover {
+  transform: scale(2); 
+ }
+
+  /* Footer styles */
+  footer {
+    font-family: 'Space Mono', monospace; 
+    font-size: 25px;
+    background-color: #ff9c00;
+    border-top: 1px solid #eee;
+    color: #eee;
+    padding: 10px;
+    text-align: right;
+    padding-bottom: 40px;
+  }
+  
+  @keyframes aparicionheader{
+    0%{
+      opacity: 0%;
+      transform: scale(2) translateY(95px);
+    }
+    100%{
+      opacity: 100%;
+      transform: scale(1) translateY(0);
+    }
+    
+   }
+
+
+  @keyframes aparicion1{
+    0%{
+      opacity: 0%;
+      transform: scale(2) translateY(75px);
+    }
+    100%{
+      opacity: 100%;
+      transform: scale(1) translateY(0);
+    }
+    
+   }
+
+@keyframes aparicion{
+  0%{
+    opacity: 0%;
+    transform: scale(2) translateY(75px);
+  }
+  100%{
+    opacity: 100%;
+    transform: scale(1) translateY(0);
+  }
+  
+ }
+
+
+ 
+ @keyframes aparicionlast{
+  0%{
+    opacity: 0%;
+    transform: scale(2) translateY(75px);
+  }
+  100%{
+    opacity: 100%;
+    transform: scale(1) translateY(0);
+  }
+  
+ }
+
+
